@@ -12,7 +12,7 @@ def findMax(arr: list) -> int | None:
     return findSecondMax(arr, max1, max2, 2)
 
 def findSecondMax(arr: list, max1: int, max2: int, index: int) -> int:
-    if index == len(arr):
+    if index >= len(arr):
         return max2
     if arr[index] >= max1:
         max2 = max1
