@@ -1,4 +1,4 @@
-def printEvenIndexes(arr: list, index = 0):
+def printEvenIndexes(arr: list):
     return check(arr, 0)
 
 def check(arr: list, index: int):
